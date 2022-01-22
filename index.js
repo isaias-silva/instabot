@@ -1,4 +1,17 @@
+//modules
 const asciiart=require('./modules/asciiart')
-console.clear()
-console.log(asciiart.telaini())
-console.log(asciiart.avisos())
+const readlinesync=require('readline-sync')
+const os=require('os')
+//
+
+function initializer(){
+    console.log(asciiart.telaini())
+    console.log(asciiart.avisos())
+    console.log(os.version())
+    
+
+}
+
+
+initializer()
+
