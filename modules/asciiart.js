@@ -21,6 +21,7 @@ const warking=function(){
           | A POLITICA DO INSTAGRAM é   |
           | extritamente contra o uso   |
           | de BOTS que dão seguidores  |
+          |           FAKES.            |
           | \u001b[31m  NENHUM DADO\u001b[0m É ARMAZENADO  |
           |     APÓS A EXECUÇÃO DO BOT  |
           |                             |
