@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/isaias-silva/instabot/issues"
   },
-  "homepage": "https://github.com/isaias-silva/instabot#readme"
+  "homepage": "https://github.com/isaias-silva/instabot#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "selenium-webdriver": "^4.1.1"
+  }
 }
