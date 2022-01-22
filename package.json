@@ -1,0 +1,19 @@
+{
+  "name": "bot-auxiliar-insta",
+  "version": "1.0.0",
+  "description": "bot que engaja o instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaias-silva/instabot.git"
+  },
+  "author": "zack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaias-silva/instabot/issues"
+  },
+  "homepage": "https://github.com/isaias-silva/instabot#readme"
+}
