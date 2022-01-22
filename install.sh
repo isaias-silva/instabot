@@ -5,3 +5,4 @@ npm install
 npm i readline-sync 
 npm i selenium-webdriver
 echo -e " HELLO! WELLCOME THE INSTABOT"
+npm start
