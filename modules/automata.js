@@ -18,11 +18,25 @@ async function web(){
     pass=''
     await driver.sleep(4000)
     driver.get(`https://www.instagram.com/${mail}`)
-    await driver.findElement(webdriver.By.xpath('//*[@aria-label="Entrada da pesquisa"]')).sendKeys('megaman', webdriver.Key.ENTER);
-   
-    let desc=  await driver.findElement(webdriver.By.className("QGPIr")).getText()
-desc=desc.split('\n')
-    console.log(desc)
+     let desc=  await driver.findElement(webdriver.By.className("QGPIr")).getText()
+    desc=desc.split('\n')
+for(let i in desc){
+ 
+    await driver.findElement(webdriver.By.xpath('//*[@aria-label="Entrada da pesquisa"]')).sendKeys(desc[i], webdriver.Key.ENTER);
+   await driver.sleep(4000)
+   const alvo= await driver.findElements(webdriver.By.className('-qQT3'))
+
+    await alvo[0].click()
+    await driver.sleep(2000)
+    const folo= await driver.findElements(webdriver.By.className('-nal3'))
+    await folo[1].click()
+  
+    await driver.sleep(2000)
+    await driver.navigate().back()
+    
+}
+
+
     
   
 }
