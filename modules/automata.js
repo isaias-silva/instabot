@@ -1,9 +1,9 @@
 const webdriver = require('selenium-webdriver')
-const readline = require('readline-sync')
-async function web() {
+const user=require('../src/data/user.json')
+const web=async function() {
 
-    let mail = readline.question('nome de usuário: ')
-    let pass = readline.question('senha: ',)
+    let mail = user.n
+    let pass =user.p
     const capabilities = {
         browserName: 'chrome'
 
@@ -52,4 +52,4 @@ async function web() {
 
 
 }
-web()
+module.exports={portema:web,}
