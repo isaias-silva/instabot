@@ -26,6 +26,11 @@ async function control(){
             await  automato.portema()
             control()
         break
+        case "2":
+            await  automato.porsearch()
+            control()
+        break
+        
         case "0":
             console.log("bye! ;)")
             break
