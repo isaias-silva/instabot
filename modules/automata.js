@@ -1,7 +1,7 @@
 const webdriver = require('selenium-webdriver')
 const user=require('../src/data/user.json')
 const web=async function() {
-
+console.log(" | \u001b[31m  Não clique fora do navegador!\u001b[0m")
     let mail = user.n
     let pass =user.p
     const capabilities = {
@@ -48,7 +48,7 @@ const web=async function() {
 
     }
 
-
+await driver.close()
 
 
 }
