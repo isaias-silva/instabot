@@ -9,3 +9,4 @@
     <li><b>deixar de seguir pessoas</b> </li>
 
 </ul>
+<img src="./src/print.png">
