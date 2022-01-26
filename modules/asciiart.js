@@ -29,4 +29,13 @@ const warking=function(){
           |                             |
           |_____________________________|`
 }
-module.exports={telaini:artini, avisos:warking}
+
+const warkingtwo=function(){
+    return `
+    _________________________________________________________
+    |                         AVISO                         |
+    |                                                       |
+    |O instagram só permite \u001b[31m 50\u001b[0m follows e unfollows por hora|
+    |_______________________________________________________|`
+}
+module.exports={telaini:artini, avisos:warking,avisost:warkingtwo}

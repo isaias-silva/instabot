@@ -30,7 +30,10 @@ async function control(){
             await  automato.porsearch()
             control()
         break
-        
+        case "3":
+            await  automato.deixar()
+            control()
+            break
         case "0":
             console.log("bye! ;)")
             break
